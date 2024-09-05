@@ -5,9 +5,9 @@ import Image from "next/image";
 const HeroSection = () => {
   return (
     <section>
-      <main>
-        <div className="py-5 px-5 min-h-screen w-full flex-center flex-col">
-          <div className="flex-center flex-col gap-5">
+      <main className="max-w-[1430px] m-auto">
+        <div className="pt-5 px-5 min-h-screen w-full flex-center flex-col">
+          <div className="flex-center flex-col gap-5 mt-44">
             <span className="text-[#862FE7] text-xs md:text-sm lg:text-lg font-bold uppercase">
               Product & Customer Feedback Tool
             </span>
@@ -43,7 +43,13 @@ const HeroSection = () => {
               </div>
             </div>
           </div>
-          <div className="flex-center flex-col gap-5"></div>
+          <div className="flex-center flex-col relative">
+            <Image src='/images/bg-hero-gradient.png' alt='' width={1920} height={1080} className="w-full" />
+            <Image src='/images/hero-shawcase-card.png' alt='' width={1920} height={1080} className="w-full absolute bottom-0 z-10" />
+            <div className="h-full w-full flex-center absolute">
+              
+            </div>
+          </div>
         </div>
       </main>
     </section>
