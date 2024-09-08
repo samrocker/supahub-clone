@@ -101,6 +101,11 @@ body {
   .flex-end {
     @apply flex justify-end items-center;
   }
+  .bg-banner {
+    background-image: url('https://i.postimg.cc/fbFr6Pw0/bottom-banner-bg.png');
+    background-size: cover;
+    background-position: center;
+  }
 }
 
 @layer base {

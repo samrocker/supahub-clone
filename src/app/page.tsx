@@ -1,4 +1,5 @@
 import HeaderSection from '@/components/common/HeaderSection';
+import BottomBannerSection from '@/components/LandingSection/BottomBannerSection';
 import ChangelogSection from '@/components/LandingSection/ChangelogSection';
 import FAQSection from '@/components/LandingSection/FAQ-Section';
 import FeedbackHubSection from '@/components/LandingSection/FeedbackHubSection';
@@ -19,6 +20,7 @@ export default function Home() {
     <ChangelogSection />
     <FeedbackToolSection />
     <FAQSection />
+    <BottomBannerSection />
     </>
   );
 }

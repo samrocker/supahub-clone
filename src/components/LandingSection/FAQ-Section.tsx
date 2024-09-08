@@ -26,12 +26,19 @@ const FAQSection = () => {
           </p>
         </div>
         <div className="w-full flex flex-wrap gap-2 items-start justify-between xs:max-w-[800px] xs:m-auto lg:max-w-none">
-            {FAQSectionContent.map((link, key) => (
-                <div key={key} className="py-5 w-full max-w-[362px] flex flex-col gap-3 items-start justify-center">
-                    <h1 className="text-xl text-[#111827] font-semibold">{link.title || "title"}</h1>
-                    <p className="text-xs md:text-sm lg:text-base text-[#111827] font-semibold">{link.description || 'description'}</p>
-                </div>
-            ))}
+          {FAQSectionContent.map((link, key) => (
+            <div
+              key={key}
+              className="py-5 w-full max-w-[362px] flex flex-col gap-3 items-start justify-center"
+            >
+              <h1 className="text-xl text-[#111827] font-semibold">
+                {link.title || "title"}
+              </h1>
+              <p className="text-xs md:text-sm lg:text-base text-[#111827] font-semibold">
+                {link.description || "description"}
+              </p>
+            </div>
+          ))}
         </div>
       </div>
     </section>
