@@ -36,7 +36,7 @@ const HeaderSection = () => {
                 {link.title}
               </Link>
             ))}
-            <Button className="text-white text-md font-semibold px-5 py-5 bg-[#862FE7] rounded-sm">
+            <Button className="text-white text-md font-semibold px-5 py-5 bg-[#862FE7] rounded-sm hover:bg-[#852fe7e1]">
               Sign up for free
             </Button>
           </div>
@@ -62,7 +62,7 @@ const HeaderSection = () => {
                       {link.title}
                     </Link>
                   ))}
-                  <Button className="text-white text-md font-semibold px-5 py-5 bg-[#862FE7] rounded-sm">
+                  <Button className="text-white text-md font-semibold px-5 py-5 bg-[#862FE7] rounded-sm hover:bg-[#852fe7e1]">
                     Sign up for free
                   </Button>
                 </div>

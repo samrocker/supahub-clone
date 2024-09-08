@@ -5,7 +5,7 @@ import RoadmapCard from "../reuseable/RoadmapCard";
 const RoadmapSection = () => {
   return (
     <section>
-      <main className="max-w-[1152px] m-auto">
+      <main className="max-w-[1200px] m-auto">
         <div className="py-5 px-5 w-full flex-between flex-col gap-10">
           <div className="pt-20 w-full flex-center flex-col gap-5">
             <span className="text-[#862FE7] text-sm lg:text-lg font-bold uppercase">

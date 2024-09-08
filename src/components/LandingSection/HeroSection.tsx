@@ -5,7 +5,7 @@ import Image from "next/image";
 const HeroSection = () => {
   return (
     <section>
-      <main className="max-w-[1430px] m-auto">
+      <main className="max-w-[1200px] m-auto">
         <div className="pt-5 px-5 min-h-screen w-full flex-between flex-col">
           <div className="flex-center flex-col gap-5 lg:gap-10 mt-60 lg:mt-44">
             <span className="text-[#862FE7] text-xs md:text-sm lg:text-lg font-bold uppercase">
@@ -37,7 +37,7 @@ const HeroSection = () => {
                 />
                 Sign up for free
               </Button>
-              <Button className="text-primary text-xs md:text-sm lg:text-lg flex-between gap-2 font-semibold px-3 md:px-5 py-6 lg:py-7 bg-transparent rounded-sm border-[1px] border-primary/20">
+              <Button className="text-primary text-xs md:text-sm lg:text-lg flex-between gap-2 font-semibold px-3 md:px-5 py-6 lg:py-7 bg-transparent rounded-sm border-[1px] border-primary/20 hover:text-white">
                 See Supahub in action
               </Button>
             </div>
@@ -90,7 +90,6 @@ const HeroSection = () => {
               height={1080}
               className="w-full absolute bottom-0 z-10"
             />
-            <div className="h-full w-full flex-center absolute"></div>
           </div>
         </div>
       </main>

@@ -36,8 +36,13 @@ const PriotizingSection = () => {
               your product roadmap and meet customer expectations efficiently.
             </p>
             <Button className="font-semibold text-base py-7 px-5 flex-center gap-2">
-                Explore product roadmap
-                <Image src='/icons/arrow-icon.png' alt="" width={27} height={27} />
+              Explore product roadmap
+              <Image
+                src="/icons/arrow-icon.png"
+                alt=""
+                width={27}
+                height={27}
+              />
             </Button>
           </div>
         </div>

@@ -36,7 +36,7 @@ const ChangelogSection = () => {
               your customers up-to-date on your progress.
             </p>
             <Button className="font-semibold text-base py-7 px-5 flex-center gap-2">
-              Explore product roadmap
+              Explore product changelog
               <Image
                 src="/icons/arrow-icon.png"
                 alt=""

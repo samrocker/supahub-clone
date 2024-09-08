@@ -1,6 +1,8 @@
 import HeaderSection from '@/components/common/HeaderSection';
 import ChangelogSection from '@/components/LandingSection/ChangelogSection';
+import FAQSection from '@/components/LandingSection/FAQ-Section';
 import FeedbackHubSection from '@/components/LandingSection/FeedbackHubSection';
+import FeedbackToolSection from '@/components/LandingSection/FeedbackToolSection';
 import HeroSection from '@/components/LandingSection/HeroSection';
 import PriotizingSection from '@/components/LandingSection/PriotizingSection';
 import RoadmapSection from '@/components/LandingSection/RoadmapSection';
@@ -15,6 +17,8 @@ export default function Home() {
     <RoadmapSection />
     <PriotizingSection />
     <ChangelogSection />
+    <FeedbackToolSection />
+    <FAQSection />
     </>
   );
 }
