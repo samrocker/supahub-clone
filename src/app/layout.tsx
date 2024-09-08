@@ -9,8 +9,8 @@ export const metadata: Metadata = {
   title: "SupaHub Clone By Samridh",
   description: "SupaHub Clone By Samridh",
   icons: {
-    icon: '/icons/logo-icon.png'
-  }
+    icon: "/icons/logo-icon.png",
+  },
 };
 
 export default function RootLayout({
@@ -20,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={cn('bg-background',inter.className)}>{children}</body>
+      <body className={cn("bg-background", inter.className)}>{children}</body>
     </html>
   );
 }
