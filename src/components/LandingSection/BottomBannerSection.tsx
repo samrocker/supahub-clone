@@ -22,7 +22,7 @@ const BottomBannerSection = () => {
                 carry the most impact and should be prioritized.
               </p>
               <div className="flex items-center flex-col lg:flex-row gap-5">
-                <Button className="text-black text-sm lg:text-lg flex items-center gap-2 font-semibold px-3 md:px-5 py-6 lg:py-7 bg-white rounded-sm">
+                <Button className="text-black text-sm lg:text-lg flex items-center gap-2 font-semibold px-3 md:px-5 py-6 lg:py-7 hover:bg-white/90 bg-white rounded-sm">
                   <Image
                     src="/icons/button-star-black.png"
                     alt="Star Icon"
