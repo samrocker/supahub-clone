@@ -1,14 +1,13 @@
 import Image from "next/image";
 import React from "react";
 import { Button } from "../ui/button";
+import { VelocityScroll } from "@/components/magicui/scroll-based-velocity";
 
 const BottomBannerSection = () => {
-  const background = "/images/bottom-banner-bg.png";
-
   return (
     <section>
       <main className="max-w-[1382px] mx-auto">
-        <div className="px-5 py-20 w-full flex justify-center items-center">
+        <div className="px-5 py-20 w-full flex flex-col justify-center items-center gap-10">
           <div className="w-full bg-[#111827] rounded-3xl relative px-5 bg-banner">
             <div className="h-full w-full flex flex-col items-center justify-center gap-7 py-10">
               <span className="text-white text-xs md:text-sm lg:text-lg font-bold uppercase">
@@ -68,6 +67,23 @@ const BottomBannerSection = () => {
                 </div>
               </div>
             </div>
+          </div>
+          <div className="py-10 w-full flex-center relative">
+            <VelocityScroll
+              default_velocity={5}
+              className="font-display text-center text-2xl font-bold tracking-[-0.02em] text-black drop-shadow-sm dark:text-white md:text-5xl flex gap-10"
+            >
+              <div className="flex-center gap-5">
+              <span>Announce Changelog</span>
+              <Image src='/icons/button-star-black.png' alt="" width={35} height={35} />
+              <span>Collect Feedback</span>
+              <Image src='/icons/button-star-black.png' alt="" width={35} height={35} />
+              <span>Showcase Roadmap</span>
+              <Image src='/icons/button-star-black.png' alt="" width={35} height={35} />
+              </div>
+            </VelocityScroll>
+            <div className="pointer-events-none absolute inset-y-0 left-0 w-1/6 bg-gradient-to-r from-white to-transparent dark:from-background"></div>
+            <div className="pointer-events-none absolute inset-y-0 right-0 w-1/6 bg-gradient-to-l from-white to-transparent dark:from-background"></div>
           </div>
         </div>
       </main>

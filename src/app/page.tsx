@@ -1,3 +1,4 @@
+import FooterSection from '@/components/common/FooterSection';
 import HeaderSection from '@/components/common/HeaderSection';
 import BottomBannerSection from '@/components/LandingSection/BottomBannerSection';
 import ChangelogSection from '@/components/LandingSection/ChangelogSection';
@@ -21,6 +22,7 @@ export default function Home() {
     <FeedbackToolSection />
     <FAQSection />
     <BottomBannerSection />
+    <FooterSection />
     </>
   );
 }
